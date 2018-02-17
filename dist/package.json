@@ -1,6 +1,6 @@
 {
   "name": "clientstore",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Client Store is a library provides meaningful use of client side storages.",
   "main": "client-store.umd.js",
   "jsnext:main": "client-store.esm.js",
@@ -14,7 +14,6 @@
     "@angular/core": "^5.2.5",
     "ngc": "^1.0.0",
     "ngx-cookie-service": "^1.0.10",
-    "rollup-plugin-typescript2": "^0.11.1",
     "typescript": "^2.7.2"
   },
   "keywords": [
