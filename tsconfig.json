@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "lib": ["es2015", "dom"]
+  },
+  "files": [
+    "./lib/client-store.ts"
+  ],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true
+  }
+}
+
+/*
+target : javascript(ECMAScript) version of compiled code.
+module : module format of complied code. There’re several options,for example, UMD,ES2015,AMD.
+sourcemap: tell typescript compiler to generate sourcemap.
+module resolution : how modules get resolved(where to look your dependency file from import) which there’re 2 ways,Node or Classic. for more detail.
+emitDecoratorMetadata and experimentalDecorators : you need to set it true for angular (they use it,for example, @Component and @Directive.
+declaration : generate corresponding .d.ts file(definition file).
+lib: built-in API declaration(difinition file) that you can choose to include in your project.
+files : it’s where your typescript file that you want to compile with tsc
+Now I can compile typescript code to javascript code with
+
+tsc -p tsconfig.json // or just tsc
+
+*/
