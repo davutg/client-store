@@ -35,3 +35,10 @@ Project initailly checks for Cookie availability then tries SessionStorage and L
         }
 
       }
+
+
+## RELEASE NOTES
+04/10/2019 High vulnurable risks are resolved, redundant dependecies are removed
+Please make your references thru dist folder and consider putting ClientStore under providers for Anuglar
+import { StoreOptions } from 'clientstore/dist/StoreOptions';
+import { ClientStore } from 'clientstore/dist/ClientStore';
