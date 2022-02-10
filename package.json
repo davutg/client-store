@@ -28,7 +28,7 @@
     "del": "^3.0.0",
     "ngc": "^1.0.0",
     "ngx-cookie-service": "^1.0.10",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "rollup-plugin-angular": "^0.5.3",
     "rollup-plugin-commonjs": "^8.3.0",
     "rollup-plugin-node-resolve": "^3.0.3",
